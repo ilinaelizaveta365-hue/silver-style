@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 390px;
+  padding: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+footer .foot-l img {
+  width: 300px;
+  height: 100px;
+}
+footer .foot-l ul {
+  color: white;
+  list-style-type: none;
+}
+footer .foot-l ul li {
+  display: flex;
+  gap: 5px;
+}
+footer .foot-c {
+  padding-top: 85px;
+}
+footer .foot-c ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer .foot-c ul a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-r h3 {
+  color: white;
+  font-size: 48px;
+}
+footer .footer-r p {
+  color: white;
+  font-size: 20px;
+}
+footer .footer-r .input-container {
+  display: flex;
+}
+footer .footer-r .input-container input {
+  width: 356px;
+  height: 48px;
+  background-color: black;
+  border: none;
+}
+footer .footer-r .input-container .send-btn {
+  background-color: black;
+  border: none;
+}
+footer .footer-r .input-container .send-btn i {
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 86px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  position: fixed;
+  box-shadow: 0 0.0625rem 0.5rem 0 rgba(0, 0, 0, 0.04), 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.04);
+}
+header .head-left {
+  display: flex;
+}
+header .head-left img {
+  width: 110px;
+  height: 36px;
+}
+header .head-left .head-txt {
+  padding-left: 30px;
+}
+header .head-left .head-txt ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+header .head-left .head-txt ul a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+header .head-right {
+  display: flex;
+  gap: 20px;
+}
+header .head-right a {
+  color: black;
+}
+header .head-right a :hover {
+  color: rgb(122, 120, 120);
+}
+
+#hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+#hero .hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#hero .hero-left .button {
+  width: 131px;
+  height: 36px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-left .button a {
+  color: white;
+  text-decoration: none;
+}
+#hero .hero-right img {
+  width: 728px;
+  height: 728px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#earrings {
+  width: 100%;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#earrings .pic {
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+  grid-auto-flow: column;
+  justify-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+#earrings .pic .card {
+  width: 362px;
+  height: 406px;
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 15px;
+}
+#earrings .pic .card img {
+  width: 332px;
+  height: 332px;
+}
+
+#saatlar {
+  width: 100%;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#saatlar a {
+  text-decoration: none;
+  color: black;
+}
+#saatlar .pic {
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+  grid-auto-flow: column;
+  justify-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+#saatlar .pic .card {
+  width: 362px;
+  height: 406px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 15px;
+}
+#saatlar .pic .card a {
+  text-decoration: none;
+  color: rgb(79, 78, 78);
+}
+#saatlar .pic .card h3 {
+  font-size: 20px;
+}
+#saatlar .pic .card img {
+  width: 332px;
+  height: 332px;
+}
+
+#trend {
+  text-align: center;
+  margin-top: 90px;
+}
+#trend .all-carts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+#trend .all-carts img {
+  width: 211px;
+  height: 211px;
+}
+
+#logos {
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+#logos img {
+  width: 179px;
+  height: 70px;
+}/*# sourceMappingURL=style.css.map */

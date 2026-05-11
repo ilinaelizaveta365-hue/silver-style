@@ -1,0 +1,144 @@
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .button {
+            width: 131px;
+            height: 36px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .hero-right {
+        img {
+            width: 728px;
+            height: 728px;
+            object-fit: cover;
+        }
+    }
+}
+
+#earrings {
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .pic {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        grid-auto-flow: column;
+        justify-items: center;
+        gap: 10px;
+        padding-left: 20px;
+
+        .card {
+            width: 362px;
+            height: 406px;
+            display: flex;
+            align-items: center;
+            border: none;
+            gap: 15px;
+
+            img {
+                width: 332px;
+                height: 332px;
+            }
+        }
+    }
+}
+
+#saatlar {
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .pic {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        grid-auto-flow: column;
+        justify-items: center;
+        gap: 10px;
+        padding-left: 20px;
+
+        .card {
+            width: 362px;
+            height: 406px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            gap: 15px;
+
+            a {
+                text-decoration: none;
+                color: rgb(79, 78, 78);
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            img {
+                width: 332px;
+                height: 332px;
+            }
+        }
+    }
+}
+
+#trend {
+    text-align: center;
+    margin-top: 90px;
+
+    .all-carts {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        img {
+            width: 211px;
+            height: 211px;
+        }
+
+    }
+}
+
+#logos {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding-bottom: 40px;
+
+    img {
+        width: 179px;
+        height: 70px;
+    }
+}
