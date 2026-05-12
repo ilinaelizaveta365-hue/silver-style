@@ -4,7 +4,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-footer {
+footer .foot {
   width: 100%;
   height: 390px;
   padding: 50px;
@@ -13,53 +13,78 @@ footer {
   justify-content: space-around;
   color: white;
 }
-footer .foot-l img {
+footer .foot .foot-l img {
   width: 300px;
   height: 100px;
 }
-footer .foot-l ul {
-  color: white;
+footer .foot .foot-l ul {
+  color: rgb(195, 193, 193);
   list-style-type: none;
 }
-footer .foot-l ul li {
+footer .foot .foot-l ul li {
   display: flex;
   gap: 5px;
 }
-footer .foot-c {
+footer .foot .foot-l .con i {
+  color: rgb(195, 193, 193);
+}
+footer .foot .foot-l .con i:hover {
+  color: white;
+}
+footer .foot .foot-c {
   padding-top: 85px;
 }
-footer .foot-c ul {
+footer .foot .foot-c ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-footer .foot-c ul a {
+footer .foot .foot-c ul a {
   text-decoration: none;
-  color: white;
+  color: rgb(195, 193, 193);
 }
-footer .footer-r h3 {
+footer .foot .foot-r h3 {
   color: white;
   font-size: 48px;
 }
-footer .footer-r p {
+footer .foot .foot-r p {
   color: white;
   font-size: 20px;
 }
-footer .footer-r .input-container {
+footer .foot .foot-r .input-con {
   display: flex;
 }
-footer .footer-r .input-container input {
+footer .foot .foot-r .input-con form {
+  background-color: black;
+  display: flex;
+}
+footer .foot .foot-r .input-con form input {
   width: 356px;
   height: 48px;
-  background-color: black;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgb(101, 101, 101);
+}
+footer .foot .foot-r .input-con form button {
+  background: none;
   border: none;
 }
-footer .footer-r .input-container .send-btn {
-  background-color: black;
-  border: none;
+footer .foot .foot-r .input-con form button i {
+  color: rgb(78, 78, 78);
 }
-footer .footer-r .input-container .send-btn i {
+footer .foot .foot-r .input-con form button i:hover {
+  color: white;
+}
+footer .foot-low {
+  border-top: 1px solid gray;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+footer .foot-low p {
   color: white;
 }
 
